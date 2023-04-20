@@ -1,0 +1,41 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    /* text-align: center; */
+  }
+  .main{
+    font-family: Arial, sans-serif;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+  textarea {
+    border-width: 6px;
+    box-shadow: inset 0 0 0 2px #ccc;
+    /* font-family: inherit;
+    font-size: inherit; */
+    margin: 0;
+    height: 30%;
+    padding: 1rem;
+    resize: none;
+    width: 80%;
+  }
+  
+  textarea:focus {
+    box-shadow: inset 0 0 0 2px #95a4b6;
+  
+    outline: none;
+  }
+  
+  .preview {
+    border: none;
+    box-shadow: inset 0 0 0 2px #ccc;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 1rem;
+  }
+  
